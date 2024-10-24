@@ -1,0 +1,1 @@
+This program is based on the code from Activity 24 with added conditions. In addition to the user's ID, name, and email, it also collects address information (street, city, and zip code). The entered customer and address details are then displayed on the console. This structure expands the program to manage customer information with added address details.
