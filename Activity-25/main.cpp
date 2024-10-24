@@ -2,13 +2,15 @@
 //  main.cpp
 //  Activity-25
 //
-//  Created by 홍주원 on 10/24/24.
+//  Created by Juwon Hong on 10/24/24.
 //
 
-#include <iostream>
+#include "Customer.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    Customer customer;
+    inputCustomerData(customer);
+    printCustomerData(customer);
+
     return 0;
 }
